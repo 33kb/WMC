@@ -1,0 +1,65 @@
+body {
+    font-family: ttf-comic-sans-ms, sans-serif; 
+    /* Ich bin auf Arch Linux, ich habe keine Microsoft-Schriftarten installiert. */ 
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6347;
+    border-radius: 5px;
+    color: #add7e5;
+    padding: 60px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+        
+}
+
+main {
+    display: flex;
+    background-color: #fe826c;
+    border-radius: 5px;
+    padding: 60px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 5px #000000;
+}
+
+th, td {
+    padding: 10px;
+    border: solid 2px #000000;
+}
+
+.tblue {
+    background-color: #add7e5;
+}
+
+.tgray {
+    background-color: #f0f0f0;
+}
+
+.twhite {
+    background-color: #ffffff;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+
+footer {
+    background-color: #ff6347;
+    border-radius: 5px;
+    color: #add7e5;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
